@@ -4,25 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c86cec0fee2b74d7bbf4f8cda9ca3830",
-    "packages": [],
-    "packages-dev": [
+    "content-hash": "2ac6d3ab2178cfb88cada228af88f2f4",
+    "packages": [
         {
             "name": "behat/behat",
-            "version": "v3.0.15",
+            "version": "v3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Behat.git",
-                "reference": "b35ae3d45332d80c532af69cc36f780a9397a996"
+                "reference": "ce89e3255dd3fdc973fa99e66b2322427afdff58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Behat/zipball/b35ae3d45332d80c532af69cc36f780a9397a996",
-                "reference": "b35ae3d45332d80c532af69cc36f780a9397a996",
+                "url": "https://api.github.com/repos/Behat/Behat/zipball/ce89e3255dd3fdc973fa99e66b2322427afdff58",
+                "reference": "ce89e3255dd3fdc973fa99e66b2322427afdff58",
                 "shasum": ""
             },
             "require": {
-                "behat/gherkin": "~4.3",
+                "behat/gherkin": "~4.1",
                 "behat/transliterator": "~1.0",
                 "ext-mbstring": "*",
                 "php": ">=5.3.3",
@@ -31,12 +30,12 @@
                 "symfony/console": "~2.1",
                 "symfony/dependency-injection": "~2.1",
                 "symfony/event-dispatcher": "~2.1",
-                "symfony/translation": "~2.3",
+                "symfony/translation": "~2.1",
                 "symfony/yaml": "~2.1"
             },
             "require-dev": {
                 "phpspec/prophecy-phpunit": "~1.0",
-                "phpunit/phpunit": "~4.0",
+                "phpunit/phpunit": "~4.0.7",
                 "symfony/process": "~2.1"
             },
             "suggest": {
@@ -86,7 +85,7 @@
                 "symfony",
                 "testing"
             ],
-            "time": "2015-02-22T14:10:33+00:00"
+            "time": "2014-04-29T21:58:07+00:00"
         },
         {
             "name": "behat/gherkin",
@@ -242,16 +241,16 @@
         },
         {
             "name": "jarnaiz/behat-junit-formatter",
-            "version": "v1.3.2",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/j-arnaiz/behat-junit-formatter.git",
-                "reference": "2f80b3881e04d3cf43e05ab821c0e80675a9846d"
+                "reference": "c4a1e7d37a6d89df8eae92085326395a276607b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/j-arnaiz/behat-junit-formatter/zipball/2f80b3881e04d3cf43e05ab821c0e80675a9846d",
-                "reference": "2f80b3881e04d3cf43e05ab821c0e80675a9846d",
+                "url": "https://api.github.com/repos/j-arnaiz/behat-junit-formatter/zipball/c4a1e7d37a6d89df8eae92085326395a276607b7",
+                "reference": "c4a1e7d37a6d89df8eae92085326395a276607b7",
                 "shasum": ""
             },
             "require": {
@@ -277,7 +276,7 @@
                 }
             ],
             "description": "Behat 3 JUnit xml formatter",
-            "time": "2016-01-26T17:05:07+00:00"
+            "time": "2015-09-18T08:05:48+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -675,16 +674,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.2.9",
+            "version": "5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "b12b9c37e382c096b93c3f26e7395775f59a5eea"
+                "reference": "d5a3df263ea4fda53d15d5dd7446d2d5f86543e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b12b9c37e382c096b93c3f26e7395775f59a5eea",
-                "reference": "b12b9c37e382c096b93c3f26e7395775f59a5eea",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d5a3df263ea4fda53d15d5dd7446d2d5f86543e4",
+                "reference": "d5a3df263ea4fda53d15d5dd7446d2d5f86543e4",
                 "shasum": ""
             },
             "require": {
@@ -694,9 +693,9 @@
                 "ext-reflection": "*",
                 "ext-spl": "*",
                 "myclabs/deep-copy": "~1.3",
-                "php": "^5.6 || ^7.0",
+                "php": ">=5.6",
                 "phpspec/prophecy": "^1.3.1",
-                "phpunit/php-code-coverage": "^3.2.1",
+                "phpunit/php-code-coverage": "~3.1",
                 "phpunit/php-file-iterator": "~1.4",
                 "phpunit/php-text-template": "~1.2",
                 "phpunit/php-timer": ">=1.0.6",
@@ -707,7 +706,7 @@
                 "sebastian/exporter": "~1.2",
                 "sebastian/global-state": "~1.0",
                 "sebastian/resource-operations": "~1.0",
-                "sebastian/version": "~1.0|~2.0",
+                "sebastian/version": "~2.0",
                 "symfony/yaml": "~2.1|~3.0"
             },
             "suggest": {
@@ -745,7 +744,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-02-19T11:43:07+00:00"
+            "time": "2016-02-04T13:12:44+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -801,6 +800,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2015-12-08T08:47:06+00:00"
         },
         {
@@ -1327,12 +1327,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "41ee6c70758f40fa1dbf90d019ae0a66c4a09e74"
+                "reference": "ee4cdda66aff834c8125e8f2c15932461667c521"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/41ee6c70758f40fa1dbf90d019ae0a66c4a09e74",
-                "reference": "41ee6c70758f40fa1dbf90d019ae0a66c4a09e74",
+                "url": "https://api.github.com/repos/symfony/config/zipball/ee4cdda66aff834c8125e8f2c15932461667c521",
+                "reference": "ee4cdda66aff834c8125e8f2c15932461667c521",
                 "shasum": ""
             },
             "require": {
@@ -1776,16 +1776,16 @@
         },
         {
             "name": "vanare/behat-cucumber-json-formatter",
-            "version": "v1.1.3",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Vanare/behat-cucumber-formatter.git",
-                "reference": "b28ae403404be4c74c740a3948d9338fc51443a3"
+                "reference": "eeaf577fc405b6ad1980e8c3b3da22876b40c4db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Vanare/behat-cucumber-formatter/zipball/b28ae403404be4c74c740a3948d9338fc51443a3",
-                "reference": "b28ae403404be4c74c740a3948d9338fc51443a3",
+                "url": "https://api.github.com/repos/Vanare/behat-cucumber-formatter/zipball/eeaf577fc405b6ad1980e8c3b3da22876b40c4db",
+                "reference": "eeaf577fc405b6ad1980e8c3b3da22876b40c4db",
                 "shasum": ""
             },
             "require": {
@@ -1823,9 +1823,10 @@
                 "jenkins",
                 "json"
             ],
-            "time": "2018-02-24T16:04:37+00:00"
+            "time": "2015-11-04T14:46:28+00:00"
         }
     ],
+    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
