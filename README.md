@@ -1,5 +1,5 @@
 # hps-behat
-[![Build Status](https://travis-ci.org/JensDonslund/hps-behat.svg?branch=master)](https://travis-ci.org/JensDonslund/hps-behat)
+[![Build Status](https://travis-ci.org/JensDonslund/hps-behat-v2.svg?branch=master)](https://travis-ci.org/JensDonslund/hps-behat-v2)
 
 Hiptest publisher samples with Behat
 
