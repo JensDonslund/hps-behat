@@ -12,7 +12,7 @@ before_install:
   - composer install
 
 script:
-  - vendor/bin/behat
+  - vendor/bin/behat -f junit
 
 after_script:
   - hiptest-publisher -c behat.conf  --push=results/report.json --test-run-id=238668
